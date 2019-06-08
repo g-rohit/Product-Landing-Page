@@ -44,8 +44,9 @@ h6 {
 .main-home {
 
     background: #FBF2C0 !important;
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 150px;
+  padding-bottom: 50px;
 }
 
 .subtitle {
