@@ -12,14 +12,27 @@ All body text :
 font-family: 'Bai Jamjuree', sans-serif;
 
 */
-.bg-dark {
+
+::selection {
+    background: #ff00aa;
+    color: #ffffff;
+}
+.bg-brown {
     background-color: #261500 !important;
 }
 
-.bg-lil-dark {
+.bg-wenge {
     background-color: #725752 !important;
 }
 
+.bg-peach {
+    background-color: #EDCB96 !important;
+    
+}
+
+.bg-blond{
+    background-color: #FBF2C0 !important;
+}
 body {
     font-family: 'Bai Jamjuree', sans-serif !important;
 }
@@ -41,7 +54,7 @@ h6 {
 
 }
 
-.main-home {
+#ComingSoon {
 
     background: #FBF2C0 !important;
     /* height: 100vh; */
@@ -97,7 +110,47 @@ input::-webkit-input-placeholder {
     
 }
 
-
+.read-more{
+     border: #725752 !important;
+    width: 100px;
+    margin: 0 auto;
+    height: 35px;
+    padding: 5px;
+    color: #725752 !important;
+    font-size: 16px;
+    transform: 1s ease-in-out ;
+    overflow: hidden;
+    
+}
+.read-more:hover {
+    background: #261500 !important;
+    border: #725752 !important;
+    width: 100px;
+    margin: 0 auto;
+    height: 35px;
+    padding: 5px;
+    color: #FBF2C0 !important;
+    font-size:16px;
+    transform: 1s ease-in-out ;
+    overflow: hidden;
+    
+}
 #label1 {
     border: 1px dashed #fbf2c0 !important;
+}
+
+.card {
+    border-radius: 10px !important;
+    border: 1px dashed #261500;
+    transition-timing-function: ease-in;
+    transition-duration: .5s;
+
+
+}
+
+.card:hover{
+    box-shadow:     0px 0 10px 5px #00000080 !important;
+    transition-timing-function: ease-in;
+    transition-duration: .5s;
+ 
 }
