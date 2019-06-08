@@ -1,0 +1,102 @@
+/* By G Rohit
+codepen.io/grohit
+*/
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap');
+
+
+/* 
+All body headings:
+font-family: 'Staatliches', cursive;
+All body text :
+font-family: 'Bai Jamjuree', sans-serif;
+
+*/
+.bg-dark {
+    background-color: #261500 !important;
+}
+
+.bg-lil-dark {
+    background-color: #725752 !important;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Staatliches', cursive !important;
+}
+
+
+.nav-item {
+    font-family: 'Staatliches', cursive !important;
+    font-weight: 100 !important;
+    font-size: 1.5em;
+
+}
+
+.main-home {
+
+    background: #FBF2C0 !important;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.subtitle {
+    font-size: 1.23em !important;
+
+}
+
+input[type="email"] {
+    border-radius: 50px !important;
+    padding: 0.5rem 1rem !important;
+    border: solid 1px #261500 !important;
+    box-shadow: 2px 3px #261500;
+}
+
+input[type="email"]:focus {
+
+    border: solid 1px #EDCB96 !important;
+    box-shadow: 2px 3px #725752;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 3;
+}
+
+.submitEmail {
+    background: #725752 !important;
+    border-radius: 50px !important;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    color: #FBF2C0 !important;
+    font-size: 20px;
+    transform: .5s ease-in-out;
+}
+.submitEmail:hover {
+    background: #261500 !important;
+    border: #725752 !important;
+    border-radius: 50px !important;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    padding: 5px;
+    color: #FBF2C0 !important;
+    font-size: 20px;
+    transform: 1s ease-in-out ;
+    overflow: hidden;
+    
+}
+
+
+#label1 {
+    border: 1px dashed #fbf2c0 !important;
+}
