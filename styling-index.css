@@ -35,8 +35,9 @@ font-family: 'Bai Jamjuree', sans-serif;
 }
 body {
     font-family: 'Bai Jamjuree', sans-serif !important;
-}
-
+    line-height: 1.6 !important;
+ }
+   
 h1,
 h2,
 h3,
@@ -46,6 +47,7 @@ h6 {
     font-family: 'Staatliches', cursive !important;
 }
 
+ 
 
 .nav-item {
     font-family: 'Staatliches', cursive !important;
@@ -54,12 +56,18 @@ h6 {
 
 }
 
-#ComingSoon {
+#comingSoon {
 
-    background: #FBF2C0 !important;
-    /* height: 100vh; */
+    min-height: 100vh;
     padding-top: 150px;
   padding-bottom: 50px;
+ 
+}
+
+#allFlavours {
+    min-height: 100vh;
+    padding-top: 75px;
+ 
 }
 
 .subtitle {
@@ -143,7 +151,7 @@ input::-webkit-input-placeholder {
     border-radius: 10px !important;
     border: 1px dashed #261500;
     transition-timing-function: ease-in;
-    transition-duration: .5s;
+    transition-duration: .3s;
 
 
 }
@@ -151,6 +159,31 @@ input::-webkit-input-placeholder {
 .card:hover{
     box-shadow:     0px 0 10px 5px #00000080 !important;
     transition-timing-function: ease-in;
-    transition-duration: .5s;
+    transition-duration: .3s;
  
+}
+
+
+#videoDemo {
+    min-height: 100vh;
+    padding-top: 75px;
+}
+
+#contact {
+    min-height: 25vh;
+ 
+}
+
+.icon {
+    font-size: 4em;
+    color: #EDCB96 !important;
+    padding: 0 20px 0 20px;
+    overflow: hidden;
+  }
+.icon:hover {
+    overflow: hidden;
+    font-size: 4em;
+    color: #FBF2C0 !important;
+    padding: 0 20px 0 20px;
+
 }

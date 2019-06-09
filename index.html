@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- custom css -->
     <link rel="stylesheet" href="styling-index.css">
 
@@ -19,7 +20,7 @@
     <title>ChocoRollo Landing page</title>
 </head>
 
-<body class="bg-white">
+<body class="">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <header id="header">
         <!-- nav bar starts -->
@@ -28,22 +29,24 @@
                 <h2>Choco Rollo <img src="https://i.imgur.com/uMOfWR4.png" alt="logo" id="header-img"
                         style="display: none;"></h2>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto p-3">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#ComingSoon">Coming soon <span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link scroll-to-part1" href="#comingSoon">Coming soon <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#AllFlavours">All Flavours</a>
+                        <a class="nav-link scroll-to-part2" href="#allFlavours">All Flavours</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link scroll-to-part3" href="#videoDemo">Video</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link scroll-to-part4" href="#contact">Contact us</a>
                     </li>
 
                 </ul>
@@ -52,18 +55,24 @@
         <!-- nav bar ends-->
     </header>
     <!-- main content starts-->
-    <div class="container-fluid">
-        <div class="row" id="ComingSoon">
-            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-6 d-flex align-items-center left-form justify-content-center d-block">
 
-                <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+    <!-- Section 1 home page - coming soon STARTS-->
+    <div class="container-fluid">
+        <div class="row bg-blond" id="comingSoon">
+            <div
+                class="col-md-12 col-xs-12 col-sm-12 col-lg-6 d-flex align-items-center left-form justify-content-center d-block">
+
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
                     <div class="form-group text-center">
                         <h1 class="m-0">Your favourite Choco Rollo</h1>
                         <p class="font-weight-bold subtitle"><em>Coming soon in Delicious
                                 brand new flavour</em></p>
 
-                        <label for="UserInputEmail" class="mt-3 px-1 bg-brown text-white" id="label1">Be the first one to get notified</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Please enter email your email ID" required>
+                        <label for="UserInputEmail" class="mt-3 px-1 bg-brown text-white" id="label1">Be the first one
+                            to get notified</label>
+                        <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="Please enter email your email ID" required>
+
                     </div>
                     <div class="col">
                         <input type="submit" id="submit" class="btn submitEmail">
@@ -79,81 +88,203 @@
             </div>
 
         </div>
-        <div id="AllFlavours" class="">
-            <h1 class="text-center mt-3">Different Flavors & Types of Chocolate</h1>
-            <div class="row-fluid">
-                <div class="card-deck text-center" id="firstSetFlavours">
+        <!-- Section 1 home page - coming soon ENDS -->
 
-                    <div class="card m-3">
-                        <img src="images/replace_chocolate-drink.png" class="card-img-top w-75 mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title ">Milk Chocolate</i> </h5>
-                            <p class="card-text">Many have wondered how white chocolate can count as chocolate. White chocolate is made of cocoa butter, but it does not contain any cocoa solids. Instead, this type of chocolate contains only the fatty part -- the cocoa butter -- as well as milk and sugar.</p>
-                            <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>
+        <!-- Section 2 All flavours page - coming soon STARTS -->
+        <div class="row">
+            <div id="allFlavours" class="bg-peach">
+                <h1 class="text-center mt-3">Different Flavors & Types of Chocolate</h1>
+                <div class="col">
+                    <div class="card-deck text-center" id="firstSetFlavours">
+
+                        <div class="card m-3">
+                            <img src="images/replace_chocolate-drink.png" class="card-img-top w-75 mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title ">Milk Chocolate</i> </h5>
+                                <p class="card-text">Many have wondered how white chocolate can count as chocolate.
+                                    White
+                                    chocolate is made of cocoa butter, but it does not contain any cocoa solids.
+                                    Instead,
+                                    this type of chocolate contains only the fatty part -- the cocoa butter -- as well
+                                    as
+                                    milk and sugar.</p>
+                                <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card m-3">
-                        <img src="images/Chocolate-Milk-.png" class="card-img-top w-75 mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Dark Chocolate</h5>
-                            <p class="card-text">Dark chocolate contains cocoa butter, sugar, and chocolate liquor. Chocolate liquor is not what chocolatinis are made of -- chocolate liquor is the term for the liquid created by grinding up the center of cocoa beans. <br> <br>This type of chocolate can range in cocoa percentages. A higher percentage of cocoa indicates that the chocolate will be more pure and likely less sweet.
-                            </p>
-                            <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>
+                        <div class="card m-3">
+                            <img src="images/Chocolate-Milk-.png" class="card-img-top w-75 mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dark Chocolate</h5>
+                                <p class="card-text">Dark chocolate contains cocoa butter, sugar, and chocolate liquor.
+                                    Chocolate liquor is not what chocolatinis are made of -- chocolate liquor is the
+                                    term
+                                    for the liquid created by grinding up the center of cocoa beans. <br> <br>This type
+                                    of
+                                    chocolate can range in cocoa percentages. A higher percentage of cocoa indicates
+                                    that
+                                    the chocolate will be more pure and likely less sweet.
+                                </p>
+                                <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>
+                            </div>
                         </div>
+                        <div class="card m-3">
+                            <img src="images/white-hot-chocolate.png" class="card-img-top w-75 mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">White Chocolate</h5>
+                                <p class="card-text">Milk chocolate is the most common type of chocolate, since many
+                                    people
+                                    long for the creaminess of milk chocolate. Milk chocolate must be made up of at
+                                    least
+                                    12% chocolate liquor in order to be considered milk chocolate. Try milk chocolate
+                                    combined with many different flavors with our Milk Chocolate Assorted Boxes!</p>
+                                <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="card m-3">
-                        <img src="images/white-hot-chocolate.png" class="card-img-top w-75 mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">White Chocolate</h5>
-                            <p class="card-text">Milk chocolate is the most common type of chocolate, since many people long for the creaminess of milk chocolate. Milk chocolate must be made up of at least 12% chocolate liquor in order to be considered milk chocolate. Try milk chocolate combined with many different flavors with our Milk Chocolate Assorted Boxes!</p>
-                            <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>           </div>
+                    <div class="card-deck text-center" id="secondSetFlavours">
+
+                        <div class="card m-3">
+                            <img src="images/regular.png" class="card-img-top w-75 mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title ">Regular Chocolate</i> </h5>
+                                <p class="card-text">“Regular Chocolate” sounds like an odd term. Does this mean there
+                                    is
+                                    irregular chocolate? Well, not exactly. Chocolate can be divided into two categories
+                                    of
+                                    real chocolate and compound chocolate.</p>
+                                <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>
+                            </div>
+                        </div>
+                        <div class="card m-3">
+                            <img src="images/BK_WEB_CHOCSHAKE_500x540.png" class="card-img-top w-75 mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Couverture Chocolate</h5>
+                                <p class="card-text">Couverture chocolate is the type of chocolate that is used for
+                                    truffles. Couverture means “covering,” and is high quality professional chocolate.
+                                    Couverture chocolate is made with the best cocoa beans and a high percentage of
+                                    cocoa.
+                                </p>
+                                <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>
+                            </div>
+                        </div>
+                        <div class="card m-3">
+                            <img src="images/WPPChocolateSplash.png" class="card-img-top mx-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ultra Couverture Chocolate</h5>
+                                <p class="card-text">Ultra couverture chocolate is a type of chocolate for making
+                                    confectionery that has even more cocoa butter than couverture chocolate. <br><br>
+                                    Ultra
+                                    couverture chocolate can be hard to work with sometimes, since that extra cocoa
+                                    butter
+                                    makes this type of chocolate tough to balance the texture and the taste.</p>
+                                <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
-                <div class="card-deck text-center" id="secondSetFlavours">
+            </div>
+        </div>
 
-                    <div class="card m-3">
-                        <img src="images/regular.png" class="card-img-top w-75 mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title ">Regular Chocolate</i> </h5>
-                            <p class="card-text">“Regular Chocolate” sounds like an odd term. Does this mean there is irregular chocolate? Well, not exactly. Chocolate can be divided into two categories of real chocolate and compound chocolate.</p>
-                                                        <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>
-                        </div>
-                    </div>
-                    <div class="card m-3">
-                        <img src="images/BK_WEB_CHOCSHAKE_500x540.png" class="card-img-top w-75 mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Couverture Chocolate</h5>
-                            <p class="card-text">Couverture chocolate is the type of chocolate that is used for truffles. Couverture means “covering,” and is high quality professional chocolate. Couverture chocolate is made with the best cocoa beans and a high percentage of cocoa.
-                            </p>
-                            <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>
-                        </div>
-                    </div>
-                    <div class="card m-3">
-                        <img src="images/WPPChocolateSplash.png" class="card-img-top mx-auto" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Ultra Couverture Chocolate</h5>
-                            <p class="card-text">Ultra couverture chocolate is a type of chocolate for making confectionery that has even more cocoa butter than couverture chocolate. <br><br> Ultra couverture chocolate can be hard to work with sometimes, since that extra cocoa butter makes this type of chocolate tough to balance the texture and the taste.</p>
-                            <a class="btn bg-peach rounded read-more" href=""> Read More</small></a></p>
-                        </div>
-                    </div>
+        <!-- Section 2 All flavours page - coming soon ENDs -->
+        <!-- Section 3 Video  - coming soon STARTS -->
+        <div class="row">
+            <div class="col bg-blond text-center" id="videoDemo">
 
-                </div>
+                <h3>Watch the trailer</h1>
+                    <iframe width="80%" height="80%" src="https://www.youtube.com/embed/aeSPVANamAA" frameborder="0"
+                        allow="accelerometer ;   encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        id="video"></iframe>
 
             </div>
         </div>
-     
+        <!-- Section 3 Video  - coming soon STARTS -->
+        <footer>
+            <div class="row bg-brown pt-3" id="contact">
+                <div class="col text-white">
+                    <h3 class="text-center ">Stay connected</h3>
+                    <div class="social text-center">
+                        <a href=""><i class="icon ion-logo-facebook large"></i></a>
+                        <a href=""><i class="icon ion-logo-instagram large"></i></a>
+                        <a href=""><i class="icon ion-logo-youtube large"></i></a>
+                        <a href=""><i class="icon ion-logo-linkedin large"></i></a>
+                        <a href=""><i class="icon ion-md-pin large"></i></a>
+                    </div>
+                    <p class="text-center">&copy; Choco Rollo 2019 </p> 
+                </div>
+            </div>
+        </footer>
+    </div>
 
- 
+    </div>
+
     <!-- main content starts-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script> -->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var window_top = $(window).scrollTop() + 12;
+                // the "12" should equal the margin-top value for nav.stickydiv
+                var div_top = $('#checkdiv').offset().top;
+                if (window_top >= div_top) {
+                    $('nav').addClass('stickydiv');
+                } else {
+                    $('nav').removeClass('stickydiv');
+                }
+            });
+
+            $(document).on("scroll", onScroll);
+
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+                $(document).off("scroll");
+                $('a').each(function () {
+                    $(this).removeClass('active');
+                })
+                $(this).addClass('active');
+                var target = this.hash,
+                    menu = target;
+                $target = $(target);
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top + 2
+                }, 600, 'swing', function () {
+                    window.location.hash = target;
+                    $(document).on("scroll", onScroll);
+                });
+            });
+        });
+
+        function onScroll(event) {
+            var scrollPos = $(document).scrollTop();
+            $('#sidebar a').each(function () {
+                var currLink = $(this);
+                var refElement = $(currLink.attr("href"));
+                if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                    $('#sidebar ul li a').removeClass("active");
+                    currLink.addClass("active");
+                }
+                else {
+                    currLink.removeClass("active");
+                }
+            });
+        }
     </script>
 </body>
 
